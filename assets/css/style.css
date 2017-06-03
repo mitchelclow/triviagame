@@ -5,10 +5,14 @@ body {
 .whiteBox {
     display: inline-block;
     width: 1220px;
-    height: 640px;
+    height: 707px;
     margin: 81px;
     padding-left: 100px;
     padding-top: 40px;
     background-color: #efeede;
     border: 3px solid #979ba0; 
+}
+
+.coloradoFlag {
+	float: right;
 }
