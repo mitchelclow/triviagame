@@ -5,7 +5,7 @@ body {
 .whiteBox {
     display: inline-block;
     width: 1220px;
-    height: 707px;
+    height: 920x;
     margin: 81px;
     padding-left: 100px;
     padding-top: 40px;
@@ -15,4 +15,20 @@ body {
 
 .coloradoFlag {
 	float: right;
+}
+
+.colorado {
+	color: #1c345b;
+	text-decoration: underline;
+	font-size: 71px;
+	text-align: center;
+}
+
+hr {
+	color: black;
+}
+
+#instructions{
+	color: #d51244;
+	font-size: 29px;
 }
