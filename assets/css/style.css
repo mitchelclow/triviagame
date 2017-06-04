@@ -44,3 +44,20 @@ hr {
     margin: 4px 50px;
     cursor: pointer;
 }
+
+.wincount{
+	font-size: 40px;
+
+}
+
+.losecount{
+	font-size: 40px;
+}
+
+.unansweredcount{
+	font-size: 40px;
+}
+
+.timer {
+	color: red;
+}
