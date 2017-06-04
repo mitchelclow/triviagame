@@ -26,7 +26,9 @@ var intervalId;
         stop();
 
         //  Alert the user that time is up.
-        alert("Time Up!");
+        $(".wincount").html("Answered correctly: " + correctCounter);
+        $(".losecount").html("Answered incorrectly: " + incorrectCounter);
+        $(".unansweredcount").html("Unanswered: " + unfinishedCounter);
       }
     }
 
