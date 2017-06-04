@@ -2,7 +2,7 @@ var correctCounter = 0;
 var incorrectCounter = 0;
 var unfinishedCounter = 0;
 
-var number = 10;
+var number = 100;
 var intervalId;
 
  	function run() {
