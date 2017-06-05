@@ -89,6 +89,16 @@ $(".button").on("click", function() {
         $(".wincount").html("Answered correctly: " + correctCounter);
         $(".losecount").html("Answered incorrectly: " + incorrectCounter);
         $(".unansweredcount").html("Unanswered: " + unfinishedCounter);
+
+
+        if(document.getElementById('factOneTrue').checked) {
+       	$(".wincount").append(correctCounter++)
+  		
+		}
+		if(document.getElementById('factTwoFalse').checked) {
+		$(".losecount").append(incorrectCounter++)
+ 	 
+}
       }
     }
 
