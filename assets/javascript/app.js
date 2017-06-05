@@ -5,7 +5,7 @@ var incorrectCounter = 0;
 var unfinishedCounter = 0;
 var startButton = ".button";
 
-var number = 2;
+var number = 120;
 var intervalId;
 
 var theWordTrue = "True";
@@ -19,6 +19,19 @@ var secondQuestion = "<b>2. Denver lays claim to the invention of the cheeseburg
 var secondQuestionTrue = $("<input type='radio' name='factTwo' id='factTwoTrue' value='True' />");
 var secondQuestionFalse= $("<input type='radio' name='factTwo' id='factTwoFalse' value='False' />");
 
+var thirdQuestion = "<b>3. State animal: The Rocky Mountain Elk.</b>";
+var thirdQuestionTrue = $("<input type='radio' name='factThree' id='factThreeTrue' value='True' />");
+var thirdQuestionFalse= $("<input type='radio' name='factThree' id='factThreeFalse' value='False' />");
+
+var forthQuestion = "<b>4. Colorado contains 75% of the land area of the U.S. with an altitude over 10,000 feet.</b>";
+var forthQuestionTrue = $("<input type='radio' name='factFour' id='factFourTrue' value='True' />");
+var forthQuestionFalse= $("<input type='radio' name='factFour' id='factFourFalse' value='False' />");
+
+var fifthQuestion = "<b>5. Colorado has the highest literacy rate in the nation.</b>";
+var fifthQuestionTrue = $("<input type='radio' name='factFive' id='factFiveTrue' value='True' />");
+var fifthQuestionFalse= $("<input type='radio' name='factFive' id='factFiveFalse' value='False' />");
+
+
 $(".button").on("click", function() {
 
 	$("#firstQuestion").html(firstQuestion);
@@ -31,6 +44,24 @@ $(".button").on("click", function() {
 	$("#secondQuestionTrue").append(secondQuestionTrue);
 	$(".true").html(theWordTrue);
 	$("#secondQuestionFalse").append(secondQuestionFalse);
+	$(".false").html(theWordFalse);
+
+	$("#thirdQuestion").html(thirdQuestion);
+	$("#thirdQuestionTrue").append(thirdQuestionTrue);
+	$(".true").html(theWordTrue);
+	$("#thirdQuestionFalse").append(thirdQuestionFalse);
+	$(".false").html(theWordFalse);
+
+	$("#forthQuestion").html(forthQuestion);
+	$("#forthQuestionTrue").append(forthQuestionTrue);
+	$(".true").html(theWordTrue);
+	$("#forthQuestionFalse").append(forthQuestionFalse);
+	$(".false").html(theWordFalse);
+
+	$("#fifthQuestion").html(fifthQuestion);
+	$("#fifthQuestionTrue").append(fifthQuestionTrue);
+	$(".true").html(theWordTrue);
+	$("#fifthQuestionFalse").append(fifthQuestionFalse);
 	$(".false").html(theWordFalse);
 
 
