@@ -4,6 +4,7 @@ var correctCounter = 0;
 var incorrectCounter = 0;
 var unfinishedCounter = 0;
 var startButton = ".button";
+var doneButton = $("<button id='buttonForDone'>Done</button>");
 
 var number = 120;
 var intervalId;
@@ -63,6 +64,9 @@ $(".button").on("click", function() {
 	$(".true").html(theWordTrue);
 	$("#fifthQuestionFalse").append(fifthQuestionFalse);
 	$(".false").html(theWordFalse);
+
+	$(".done").append(doneButton);
+
 
 
  	function run() {
